@@ -10,7 +10,7 @@ This plugin filters the output of that plugin and re-builds the output so that i
 
 ## Screenshots
 
-![Screenshot of multi page post navigation showing named and numbered links](https://raw.github.com/GaryJones/multi-page-post-next-and-numbers/master/assets/screenshot-1.png)
+![Screenshot of multi page post navigation showing named and numbered links](https://raw.github.com/GaryJones/multi-page-post-next-and-numbers/master/assets/screenshot-1.png)  
 _Named and numbered links._
 
 ## Requirements
