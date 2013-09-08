@@ -9,16 +9,18 @@
  * @copyright 2013 Gary Jones, Gamajo Tech
  *
  * @wordpress-plugin
- * Plugin Name: Multi-Page Post Next and Numbers
- * Plugin URI:  https://github.com/GaryJones/multi-page-post-next-and-numbers
- * Description: Display both Previous & Next links and numbers for multi-page posts.
- * Version:     1.0.0
- * Author:      Gary Jones
- * Author URI:  http://gamajo.com/
- * Text Domain: multi-page-post-next-and-numbers
- * License:     GPL-2.0+
- * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
- * Domain Path: /lang
+ * Plugin Name:       Multi-Page Post Next and Numbers
+ * Plugin URI:        https://github.com/GaryJones/multi-page-post-next-and-numbers
+ * Description:       Display both Previous & Next links and numbers for multi-page posts.
+ * Version:           1.1.0
+ * Author:            Gary Jones
+ * Author URI:        http://gamajo.com/
+ * Text Domain:       multi-page-post-next-and-numbers
+ * License:           GPL-2.0+
+ * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
+ * Domain Path:       /lang
+ * GitHub Plugin URI: https://github.com/GaryJones/multi-page-post-next-and-numbers
+ * GitHub Branch:     master
  */
 
 // If this file is called directly, abort.
@@ -31,7 +33,7 @@ add_filter( 'wp_link_pages', 'multi_page_post_next_and_numbers', 10, 2 );
  * Filter wp_link_pages() so that it shows both Previous & Next links, as well as numbered pagination.
  *
  * @since 1.0.0
- * 
+ *
  * @param  string $output Existing markup.
  * @param  array $args    Original arguments (not merged with defaults)
  *

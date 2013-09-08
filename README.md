@@ -42,6 +42,10 @@ Using git, browse to your `/wp-content/plugins/` directory and clone this reposi
 
 Then go to your Plugins screen and click __Activate__.
 
+## Updates
+
+This plugin supports the [GitHub Updater](https://github.com/afragen/github-updater) plugin, so if you install that, this plugin becomes automatically updateable direct from GitHub.
+
 ## Usage
 
 Just activate the plugin.
